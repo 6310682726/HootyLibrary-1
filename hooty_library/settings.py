@@ -87,8 +87,12 @@ WSGI_APPLICATION = 'hooty_library.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbkqdnjkl5qih8', 
+        'USER': 'azuuompbcyhlkt',
+        'PASSWORD': '2f26d039e2b3e4ce20fb9a3a37de034b2a585e309d5ab63f55570f2cbffabc67',
+        'HOST': 'ec2-54-173-77-184.compute-1.amazonaws.com', 
+        'PORT': '5432',
     }
 }
 
